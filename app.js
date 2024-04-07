@@ -1,12 +1,13 @@
 // Import required modules
-const express = require('express');
+const express = require("express");
 
+console.log("LOG::", process.env.APP_SECRET);
 // Create an Express application
 const app = express();
 
 // Define a route
-app.get('/', (req, res) => {
-  res.send('Hello, World! This is a simple Express app.');
+app.get("/", (req, res) => {
+  res.send("Hello, World! This is a simple Express app.");
 });
 
 // Start the server
