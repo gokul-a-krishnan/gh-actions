@@ -1,7 +1,7 @@
 // Import required modules
 const express = require("express");
 
-console.log("LOG::", process.env.APP_SECRET);
+console.log("LOG ::", process.env.APP_SECRET);
 // Create an Express application
 const app = express();
 
